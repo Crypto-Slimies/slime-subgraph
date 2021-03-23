@@ -6,10 +6,10 @@
   "scripts": {
     "codegen": "graph codegen --output-dir src/types/",
     "build": "graph build",
-    "create-local": "graph create slime-swap/slimeswap-subgraph --node http://192.168.25.128:8520",
-    "deploy-local": "graph deploy slime-swap/slimeswap-subgraph --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
+    "create-local": "graph create slime-swap/slimeswap-01 --node http://127.0.0.1:8020",
+    "deploy-local": "graph deploy slime-swap/slimeswap-01 --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
     "create-remote": "graph create slime-swap/slimeswap-subgraph --node http://161.97.86.205:8020",
-    "deploy": "graph deploy slime-swap/slimeswap-subgraph --ipfs http://161.97.117.103:5001/ --node http://161.97.86.205:8020/ --debug",
+    "deploy": "graph deploy slime-swap/slimeswap-subgraph --ipfs http://127.0.0.1:5001/ --node http://127.0.0.1:8020/ --debug",
     "deploy-staging": "graph deploy $THE_GRAPH_GITHUB_USER/$THE_GRAPH_SUBGRAPH_NAME /SlimeSwap --ipfs https://api.staging.thegraph.com/ipfs/ --node https://api.staging.thegraph.com/deploy/",
     "watch-local": "graph deploy graphprotocol/SlimeSwap2 --watch --debug --node http://127.0.0.1:8020/ --ipfs http://localhost:5001"
   },
