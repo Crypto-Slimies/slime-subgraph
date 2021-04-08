@@ -1,4 +1,4 @@
-{
+ "graph deploy slime-swap/slimeswap-02 --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",{
   "name": "slimeswap-subgraph",
   "version": "1.0.0",
   "repository": "https://github.com/SlimeSwapFinance/slimeswap-subgraph",
